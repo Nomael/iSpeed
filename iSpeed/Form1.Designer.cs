@@ -28,13 +28,159 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.rbtn_Brief = new System.Windows.Forms.RadioButton();
+            this.lbl_Sendungsart = new System.Windows.Forms.Label();
+            this.cbox_Sendungsart = new System.Windows.Forms.ComboBox();
+            this.btn_Portorechnen = new System.Windows.Forms.Button();
+            this.rbtn_Packet = new System.Windows.Forms.RadioButton();
+            this.lbl_Gewicht = new System.Windows.Forms.Label();
+            this.lbl_Entfernung = new System.Windows.Forms.Label();
+            this.nud_Entfernung = new System.Windows.Forms.NumericUpDown();
+            this.nud_Gewicht = new System.Windows.Forms.NumericUpDown();
+            this.btn_Clear = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_Gewicht)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // rbtn_Brief
+            // 
+            this.rbtn_Brief.AutoSize = true;
+            this.rbtn_Brief.Location = new System.Drawing.Point(126, 36);
+            this.rbtn_Brief.Name = "rbtn_Brief";
+            this.rbtn_Brief.Size = new System.Drawing.Size(55, 20);
+            this.rbtn_Brief.TabIndex = 0;
+            this.rbtn_Brief.TabStop = true;
+            this.rbtn_Brief.Text = "Brief";
+            this.rbtn_Brief.UseVisualStyleBackColor = true;
+            // 
+            // lbl_Sendungsart
+            // 
+            this.lbl_Sendungsart.AutoSize = true;
+            this.lbl_Sendungsart.Location = new System.Drawing.Point(12, 80);
+            this.lbl_Sendungsart.Name = "lbl_Sendungsart";
+            this.lbl_Sendungsart.Size = new System.Drawing.Size(83, 16);
+            this.lbl_Sendungsart.TabIndex = 1;
+            this.lbl_Sendungsart.Text = "Sendungsart";
+            // 
+            // cbox_Sendungsart
+            // 
+            this.cbox_Sendungsart.FormattingEnabled = true;
+            this.cbox_Sendungsart.Location = new System.Drawing.Point(126, 77);
+            this.cbox_Sendungsart.Name = "cbox_Sendungsart";
+            this.cbox_Sendungsart.Size = new System.Drawing.Size(167, 24);
+            this.cbox_Sendungsart.TabIndex = 2;
+            // 
+            // btn_Portorechnen
+            // 
+            this.btn_Portorechnen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Portorechnen.Location = new System.Drawing.Point(619, 125);
+            this.btn_Portorechnen.Name = "btn_Portorechnen";
+            this.btn_Portorechnen.Size = new System.Drawing.Size(169, 65);
+            this.btn_Portorechnen.TabIndex = 3;
+            this.btn_Portorechnen.Text = "Porto Berechnen";
+            this.btn_Portorechnen.UseVisualStyleBackColor = true;
+            // 
+            // rbtn_Packet
+            // 
+            this.rbtn_Packet.AutoSize = true;
+            this.rbtn_Packet.Location = new System.Drawing.Point(223, 36);
+            this.rbtn_Packet.Name = "rbtn_Packet";
+            this.rbtn_Packet.Size = new System.Drawing.Size(70, 20);
+            this.rbtn_Packet.TabIndex = 4;
+            this.rbtn_Packet.TabStop = true;
+            this.rbtn_Packet.Text = "Packet";
+            this.rbtn_Packet.UseVisualStyleBackColor = true;
+            // 
+            // lbl_Gewicht
+            // 
+            this.lbl_Gewicht.AutoSize = true;
+            this.lbl_Gewicht.Location = new System.Drawing.Point(12, 176);
+            this.lbl_Gewicht.Name = "lbl_Gewicht";
+            this.lbl_Gewicht.Size = new System.Drawing.Size(54, 16);
+            this.lbl_Gewicht.TabIndex = 5;
+            this.lbl_Gewicht.Text = "Gewicht";
+            // 
+            // lbl_Entfernung
+            // 
+            this.lbl_Entfernung.AutoSize = true;
+            this.lbl_Entfernung.Location = new System.Drawing.Point(12, 127);
+            this.lbl_Entfernung.Name = "lbl_Entfernung";
+            this.lbl_Entfernung.Size = new System.Drawing.Size(70, 16);
+            this.lbl_Entfernung.TabIndex = 6;
+            this.lbl_Entfernung.Text = "Entfernung";
+            // 
+            // nud_Entfernung
+            // 
+            this.nud_Entfernung.Location = new System.Drawing.Point(126, 125);
+            this.nud_Entfernung.Name = "nud_Entfernung";
+            this.nud_Entfernung.Size = new System.Drawing.Size(167, 22);
+            this.nud_Entfernung.TabIndex = 7;
+            // 
+            // nud_Gewicht
+            // 
+            this.nud_Gewicht.Location = new System.Drawing.Point(126, 174);
+            this.nud_Gewicht.Name = "nud_Gewicht";
+            this.nud_Gewicht.Size = new System.Drawing.Size(167, 22);
+            this.nud_Gewicht.TabIndex = 8;
+            // 
+            // btn_Clear
+            // 
+            this.btn_Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Clear.Location = new System.Drawing.Point(619, 207);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(169, 65);
+            this.btn_Clear.TabIndex = 9;
+            this.btn_Clear.Text = "Clear";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            // 
+            // listView1
+            // 
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 364);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(776, 358);
+            this.listView1.TabIndex = 10;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 734);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.btn_Clear);
+            this.Controls.Add(this.nud_Gewicht);
+            this.Controls.Add(this.nud_Entfernung);
+            this.Controls.Add(this.lbl_Entfernung);
+            this.Controls.Add(this.lbl_Gewicht);
+            this.Controls.Add(this.rbtn_Packet);
+            this.Controls.Add(this.btn_Portorechnen);
+            this.Controls.Add(this.cbox_Sendungsart);
+            this.Controls.Add(this.lbl_Sendungsart);
+            this.Controls.Add(this.rbtn_Brief);
+            this.Name = "Form1";
+            this.Text = "Packetstelle";
+            ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_Gewicht)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.RadioButton rbtn_Brief;
+        private System.Windows.Forms.Label lbl_Sendungsart;
+        private System.Windows.Forms.ComboBox cbox_Sendungsart;
+        private System.Windows.Forms.Button btn_Portorechnen;
+        private System.Windows.Forms.RadioButton rbtn_Packet;
+        private System.Windows.Forms.Label lbl_Gewicht;
+        private System.Windows.Forms.Label lbl_Entfernung;
+        private System.Windows.Forms.NumericUpDown nud_Entfernung;
+        private System.Windows.Forms.NumericUpDown nud_Gewicht;
+        private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 
