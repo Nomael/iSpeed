@@ -39,6 +39,8 @@
             this.nud_Gewicht = new System.Windows.Forms.NumericUpDown();
             this.btn_Clear = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.lbl_Porto = new System.Windows.Forms.Label();
+            this.tbox_Porto = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Gewicht)).BeginInit();
             this.SuspendLayout();
@@ -121,6 +123,7 @@
             // 
             this.nud_Gewicht.Location = new System.Drawing.Point(126, 174);
             this.nud_Gewicht.Name = "nud_Gewicht";
+            this.nud_Gewicht.ReadOnly = true;
             this.nud_Gewicht.Size = new System.Drawing.Size(167, 22);
             this.nud_Gewicht.TabIndex = 8;
             // 
@@ -137,17 +140,36 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 364);
+            this.listView1.Location = new System.Drawing.Point(12, 378);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(776, 358);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // lbl_Porto
+            // 
+            this.lbl_Porto.AutoSize = true;
+            this.lbl_Porto.Location = new System.Drawing.Point(12, 287);
+            this.lbl_Porto.Name = "lbl_Porto";
+            this.lbl_Porto.Size = new System.Drawing.Size(39, 16);
+            this.lbl_Porto.TabIndex = 11;
+            this.lbl_Porto.Text = "Porto";
+            // 
+            // tbox_Porto
+            // 
+            this.tbox_Porto.Location = new System.Drawing.Point(126, 287);
+            this.tbox_Porto.Name = "tbox_Porto";
+            this.tbox_Porto.ReadOnly = true;
+            this.tbox_Porto.Size = new System.Drawing.Size(167, 22);
+            this.tbox_Porto.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 734);
+            this.Controls.Add(this.tbox_Porto);
+            this.Controls.Add(this.lbl_Porto);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.nud_Gewicht);
@@ -181,6 +203,8 @@
         private System.Windows.Forms.NumericUpDown nud_Gewicht;
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Label lbl_Porto;
+        private System.Windows.Forms.TextBox tbox_Porto;
     }
 }
 
