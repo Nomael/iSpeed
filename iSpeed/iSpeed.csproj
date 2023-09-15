@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="B1.cs" />
+    <Compile Include="B2.cs" />
+    <Compile Include="P3.cs" />
+    <Compile Include="P2.cs" />
+    <Compile Include="P1.cs" />
+    <Compile Include="Sendung.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

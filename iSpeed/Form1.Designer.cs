@@ -58,6 +58,7 @@
             this.rbtn_Brief.TabStop = true;
             this.rbtn_Brief.Text = "Brief";
             this.rbtn_Brief.UseVisualStyleBackColor = true;
+            this.rbtn_Brief.CheckedChanged += new System.EventHandler(this.rbtn_Brief_CheckedChanged);
             // 
             // lbl_Sendungsart
             // 
@@ -100,6 +101,7 @@
             this.rbtn_Packet.TabStop = true;
             this.rbtn_Packet.Text = "Packet";
             this.rbtn_Packet.UseVisualStyleBackColor = true;
+            this.rbtn_Packet.CheckedChanged += new System.EventHandler(this.rbtn_Packet_CheckedChanged);
             // 
             // lbl_Gewicht
             // 
