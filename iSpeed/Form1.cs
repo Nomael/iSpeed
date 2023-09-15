@@ -16,5 +16,10 @@ namespace iSpeed
         {
             InitializeComponent();
         }
+
+        private void btn_Portorechnen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
