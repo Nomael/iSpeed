@@ -48,10 +48,10 @@
             // rbtn_Brief
             // 
             this.rbtn_Brief.AutoSize = true;
-            this.rbtn_Brief.Location = new System.Drawing.Point(94, 29);
-            this.rbtn_Brief.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtn_Brief.Location = new System.Drawing.Point(125, 36);
+            this.rbtn_Brief.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtn_Brief.Name = "rbtn_Brief";
-            this.rbtn_Brief.Size = new System.Drawing.Size(46, 17);
+            this.rbtn_Brief.Size = new System.Drawing.Size(55, 20);
             this.rbtn_Brief.TabIndex = 0;
             this.rbtn_Brief.TabStop = true;
             this.rbtn_Brief.Text = "Brief";
@@ -60,29 +60,28 @@
             // lbl_Sendungsart
             // 
             this.lbl_Sendungsart.AutoSize = true;
-            this.lbl_Sendungsart.Location = new System.Drawing.Point(9, 65);
-            this.lbl_Sendungsart.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Sendungsart.Location = new System.Drawing.Point(12, 80);
             this.lbl_Sendungsart.Name = "lbl_Sendungsart";
-            this.lbl_Sendungsart.Size = new System.Drawing.Size(67, 13);
+            this.lbl_Sendungsart.Size = new System.Drawing.Size(83, 16);
             this.lbl_Sendungsart.TabIndex = 1;
             this.lbl_Sendungsart.Text = "Sendungsart";
             // 
             // cbox_Sendungsart
             // 
             this.cbox_Sendungsart.FormattingEnabled = true;
-            this.cbox_Sendungsart.Location = new System.Drawing.Point(94, 63);
-            this.cbox_Sendungsart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbox_Sendungsart.Location = new System.Drawing.Point(125, 78);
+            this.cbox_Sendungsart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbox_Sendungsart.Name = "cbox_Sendungsart";
-            this.cbox_Sendungsart.Size = new System.Drawing.Size(126, 21);
+            this.cbox_Sendungsart.Size = new System.Drawing.Size(167, 24);
             this.cbox_Sendungsart.TabIndex = 2;
             // 
             // btn_Portorechnen
             // 
             this.btn_Portorechnen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Portorechnen.Location = new System.Drawing.Point(464, 102);
-            this.btn_Portorechnen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Portorechnen.Location = new System.Drawing.Point(619, 126);
+            this.btn_Portorechnen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Portorechnen.Name = "btn_Portorechnen";
-            this.btn_Portorechnen.Size = new System.Drawing.Size(127, 53);
+            this.btn_Portorechnen.Size = new System.Drawing.Size(169, 65);
             this.btn_Portorechnen.TabIndex = 3;
             this.btn_Portorechnen.Text = "Porto Berechnen";
             this.btn_Portorechnen.UseVisualStyleBackColor = true;
@@ -91,10 +90,10 @@
             // rbtn_Packet
             // 
             this.rbtn_Packet.AutoSize = true;
-            this.rbtn_Packet.Location = new System.Drawing.Point(167, 29);
-            this.rbtn_Packet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtn_Packet.Location = new System.Drawing.Point(223, 36);
+            this.rbtn_Packet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtn_Packet.Name = "rbtn_Packet";
-            this.rbtn_Packet.Size = new System.Drawing.Size(59, 17);
+            this.rbtn_Packet.Size = new System.Drawing.Size(70, 20);
             this.rbtn_Packet.TabIndex = 4;
             this.rbtn_Packet.TabStop = true;
             this.rbtn_Packet.Text = "Packet";
@@ -103,47 +102,45 @@
             // lbl_Gewicht
             // 
             this.lbl_Gewicht.AutoSize = true;
-            this.lbl_Gewicht.Location = new System.Drawing.Point(9, 143);
-            this.lbl_Gewicht.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Gewicht.Location = new System.Drawing.Point(12, 176);
             this.lbl_Gewicht.Name = "lbl_Gewicht";
-            this.lbl_Gewicht.Size = new System.Drawing.Size(46, 13);
+            this.lbl_Gewicht.Size = new System.Drawing.Size(54, 16);
             this.lbl_Gewicht.TabIndex = 5;
             this.lbl_Gewicht.Text = "Gewicht";
             // 
             // lbl_Entfernung
             // 
             this.lbl_Entfernung.AutoSize = true;
-            this.lbl_Entfernung.Location = new System.Drawing.Point(9, 103);
-            this.lbl_Entfernung.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Entfernung.Location = new System.Drawing.Point(12, 127);
             this.lbl_Entfernung.Name = "lbl_Entfernung";
-            this.lbl_Entfernung.Size = new System.Drawing.Size(59, 13);
+            this.lbl_Entfernung.Size = new System.Drawing.Size(70, 16);
             this.lbl_Entfernung.TabIndex = 6;
             this.lbl_Entfernung.Text = "Entfernung";
             // 
             // nud_Entfernung
             // 
-            this.nud_Entfernung.Location = new System.Drawing.Point(94, 102);
-            this.nud_Entfernung.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nud_Entfernung.Location = new System.Drawing.Point(125, 126);
+            this.nud_Entfernung.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nud_Entfernung.Name = "nud_Entfernung";
-            this.nud_Entfernung.Size = new System.Drawing.Size(125, 20);
+            this.nud_Entfernung.Size = new System.Drawing.Size(167, 22);
             this.nud_Entfernung.TabIndex = 7;
             // 
             // nud_Gewicht
             // 
-            this.nud_Gewicht.Location = new System.Drawing.Point(94, 141);
-            this.nud_Gewicht.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nud_Gewicht.Location = new System.Drawing.Point(125, 174);
+            this.nud_Gewicht.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nud_Gewicht.Name = "nud_Gewicht";
             this.nud_Gewicht.ReadOnly = true;
-            this.nud_Gewicht.Size = new System.Drawing.Size(125, 20);
+            this.nud_Gewicht.Size = new System.Drawing.Size(167, 22);
             this.nud_Gewicht.TabIndex = 8;
             // 
             // btn_Clear
             // 
             this.btn_Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Clear.Location = new System.Drawing.Point(464, 168);
-            this.btn_Clear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Clear.Location = new System.Drawing.Point(619, 207);
+            this.btn_Clear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Clear.Name = "btn_Clear";
-            this.btn_Clear.Size = new System.Drawing.Size(127, 53);
+            this.btn_Clear.Size = new System.Drawing.Size(169, 65);
             this.btn_Clear.TabIndex = 9;
             this.btn_Clear.Text = "Clear";
             this.btn_Clear.UseVisualStyleBackColor = true;
@@ -151,37 +148,36 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(9, 307);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listView1.Location = new System.Drawing.Point(15, 365);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(583, 292);
+            this.listView1.Size = new System.Drawing.Size(776, 358);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // lbl_Porto
             // 
             this.lbl_Porto.AutoSize = true;
-            this.lbl_Porto.Location = new System.Drawing.Point(9, 233);
-            this.lbl_Porto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_Porto.Location = new System.Drawing.Point(12, 287);
             this.lbl_Porto.Name = "lbl_Porto";
-            this.lbl_Porto.Size = new System.Drawing.Size(32, 13);
+            this.lbl_Porto.Size = new System.Drawing.Size(39, 16);
             this.lbl_Porto.TabIndex = 11;
             this.lbl_Porto.Text = "Porto";
             // 
             // tbox_Porto
             // 
-            this.tbox_Porto.Location = new System.Drawing.Point(94, 233);
-            this.tbox_Porto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbox_Porto.Location = new System.Drawing.Point(125, 287);
+            this.tbox_Porto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbox_Porto.Name = "tbox_Porto";
             this.tbox_Porto.ReadOnly = true;
-            this.tbox_Porto.Size = new System.Drawing.Size(126, 20);
+            this.tbox_Porto.Size = new System.Drawing.Size(167, 22);
             this.tbox_Porto.TabIndex = 12;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 596);
+            this.ClientSize = new System.Drawing.Size(800, 734);
             this.Controls.Add(this.tbox_Porto);
             this.Controls.Add(this.lbl_Porto);
             this.Controls.Add(this.listView1);
@@ -195,7 +191,7 @@
             this.Controls.Add(this.cbox_Sendungsart);
             this.Controls.Add(this.lbl_Sendungsart);
             this.Controls.Add(this.rbtn_Brief);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Packetstelle";
             ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).EndInit();
