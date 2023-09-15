@@ -43,6 +43,8 @@
             this.tbox_Porto = new System.Windows.Forms.TextBox();
             this.lbl_km = new System.Windows.Forms.Label();
             this.lbl_kg = new System.Windows.Forms.Label();
+            this.brief_list_box = new System.Windows.Forms.ComboBox();
+            this.lbl_brief_größe = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Gewicht)).BeginInit();
             this.SuspendLayout();
@@ -133,10 +135,15 @@
             // 
             this.nud_Gewicht.Location = new System.Drawing.Point(125, 174);
             this.nud_Gewicht.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nud_Gewicht.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.nud_Gewicht.Name = "nud_Gewicht";
-            this.nud_Gewicht.ReadOnly = true;
             this.nud_Gewicht.Size = new System.Drawing.Size(148, 22);
             this.nud_Gewicht.TabIndex = 8;
+            this.nud_Gewicht.ValueChanged += new System.EventHandler(this.nud_Gewicht_ValueChanged);
             // 
             // btn_Clear
             // 
@@ -148,6 +155,7 @@
             this.btn_Clear.TabIndex = 9;
             this.btn_Clear.Text = "Clear";
             this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
             // listView1
             // 
@@ -191,15 +199,37 @@
             this.lbl_kg.AutoSize = true;
             this.lbl_kg.Location = new System.Drawing.Point(279, 180);
             this.lbl_kg.Name = "lbl_kg";
-            this.lbl_kg.Size = new System.Drawing.Size(22, 16);
+            this.lbl_kg.Size = new System.Drawing.Size(15, 16);
             this.lbl_kg.TabIndex = 14;
-            this.lbl_kg.Text = "kg";
+            this.lbl_kg.Text = "g";
+            this.lbl_kg.Click += new System.EventHandler(this.lbl_kg_Click);
+            // 
+            // brief_list_box
+            // 
+            this.brief_list_box.FormattingEnabled = true;
+            this.brief_list_box.Location = new System.Drawing.Point(125, 207);
+            this.brief_list_box.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.brief_list_box.Name = "brief_list_box";
+            this.brief_list_box.Size = new System.Drawing.Size(148, 24);
+            this.brief_list_box.TabIndex = 15;
+            this.brief_list_box.SelectedIndexChanged += new System.EventHandler(this.brief_list_box_SelectedIndexChanged);
+            // 
+            // lbl_brief_größe
+            // 
+            this.lbl_brief_größe.AutoSize = true;
+            this.lbl_brief_größe.Location = new System.Drawing.Point(12, 210);
+            this.lbl_brief_größe.Name = "lbl_brief_größe";
+            this.lbl_brief_größe.Size = new System.Drawing.Size(75, 16);
+            this.lbl_brief_größe.TabIndex = 16;
+            this.lbl_brief_größe.Text = "Brief Größe";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 734);
+            this.Controls.Add(this.lbl_brief_größe);
+            this.Controls.Add(this.brief_list_box);
             this.Controls.Add(this.lbl_kg);
             this.Controls.Add(this.lbl_km);
             this.Controls.Add(this.tbox_Porto);
@@ -242,6 +272,8 @@
         private System.Windows.Forms.TextBox tbox_Porto;
         private System.Windows.Forms.Label lbl_km;
         private System.Windows.Forms.Label lbl_kg;
+        private System.Windows.Forms.ComboBox brief_list_box;
+        private System.Windows.Forms.Label lbl_brief_größe;
     }
 }
 
