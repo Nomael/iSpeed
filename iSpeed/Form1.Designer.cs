@@ -41,6 +41,8 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.lbl_Porto = new System.Windows.Forms.Label();
             this.tbox_Porto = new System.Windows.Forms.TextBox();
+            this.lbl_km = new System.Windows.Forms.Label();
+            this.lbl_kg = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Entfernung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Gewicht)).BeginInit();
             this.SuspendLayout();
@@ -122,7 +124,7 @@
             this.nud_Entfernung.Location = new System.Drawing.Point(125, 126);
             this.nud_Entfernung.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nud_Entfernung.Name = "nud_Entfernung";
-            this.nud_Entfernung.Size = new System.Drawing.Size(167, 22);
+            this.nud_Entfernung.Size = new System.Drawing.Size(148, 22);
             this.nud_Entfernung.TabIndex = 7;
             // 
             // nud_Gewicht
@@ -131,7 +133,7 @@
             this.nud_Gewicht.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nud_Gewicht.Name = "nud_Gewicht";
             this.nud_Gewicht.ReadOnly = true;
-            this.nud_Gewicht.Size = new System.Drawing.Size(167, 22);
+            this.nud_Gewicht.Size = new System.Drawing.Size(148, 22);
             this.nud_Gewicht.TabIndex = 8;
             // 
             // btn_Clear
@@ -173,11 +175,31 @@
             this.tbox_Porto.Size = new System.Drawing.Size(167, 22);
             this.tbox_Porto.TabIndex = 12;
             // 
+            // lbl_km
+            // 
+            this.lbl_km.AutoSize = true;
+            this.lbl_km.Location = new System.Drawing.Point(279, 132);
+            this.lbl_km.Name = "lbl_km";
+            this.lbl_km.Size = new System.Drawing.Size(25, 16);
+            this.lbl_km.TabIndex = 13;
+            this.lbl_km.Text = "km";
+            // 
+            // lbl_kg
+            // 
+            this.lbl_kg.AutoSize = true;
+            this.lbl_kg.Location = new System.Drawing.Point(279, 180);
+            this.lbl_kg.Name = "lbl_kg";
+            this.lbl_kg.Size = new System.Drawing.Size(22, 16);
+            this.lbl_kg.TabIndex = 14;
+            this.lbl_kg.Text = "kg";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 734);
+            this.Controls.Add(this.lbl_kg);
+            this.Controls.Add(this.lbl_km);
             this.Controls.Add(this.tbox_Porto);
             this.Controls.Add(this.lbl_Porto);
             this.Controls.Add(this.listView1);
@@ -216,6 +238,8 @@
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Label lbl_Porto;
         private System.Windows.Forms.TextBox tbox_Porto;
+        private System.Windows.Forms.Label lbl_km;
+        private System.Windows.Forms.Label lbl_kg;
     }
 }
 
