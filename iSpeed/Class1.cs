@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace iSpeed
 {
-    internal class Class1
+    internal class Sendung
+
     {
+        int km;
+        int Gewicht;
+            
     }
 }
