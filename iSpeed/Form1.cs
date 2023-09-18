@@ -27,7 +27,7 @@ namespace iSpeed
         public Form1()
         {
             InitializeComponent();
-            //cbox_Sendungsart.Enabled = false;
+            cbox_Sendungsart.Enabled = false;
 
             p1 = new P1();
             p2 = new P2();
@@ -144,7 +144,14 @@ namespace iSpeed
 
                 stats.SubItems.Add(cbox_Sendungsart.Text);
                 stats.SubItems.Add(nud_Entfernung.Value.ToString());
-                stats.SubItems.Add(nud_Gewicht.Value.ToString());
+                if (rbtn_Packet.Checked == true)
+                {
+                    stats.SubItems.Add(nud_Gewicht.Value.ToString());
+                }
+                else
+                {
+                    stats.SubItems.Add(brief_list_box.Text);
+                }
                 stats.SubItems.Add(porto.ToString());
 
                 listView1.Items.Add(stats);
