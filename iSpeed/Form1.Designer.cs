@@ -39,6 +39,11 @@
             this.nud_Gewicht = new System.Windows.Forms.NumericUpDown();
             this.btn_Clear = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.ch_index = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ch_Format = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ch_Entfernung = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ch_Gewicht = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ch_Porto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lbl_Porto = new System.Windows.Forms.Label();
             this.tbox_Porto = new System.Windows.Forms.TextBox();
             this.lbl_km = new System.Windows.Forms.Label();
@@ -159,6 +164,12 @@
             // 
             // listView1
             // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ch_index,
+            this.ch_Format,
+            this.ch_Entfernung,
+            this.ch_Gewicht,
+            this.ch_Porto});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(15, 365);
             this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -166,6 +177,36 @@
             this.listView1.Size = new System.Drawing.Size(776, 358);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // ch_index
+            // 
+            this.ch_index.Text = "";
+            this.ch_index.Width = 0;
+            // 
+            // ch_Format
+            // 
+            this.ch_Format.Text = "Format";
+            this.ch_Format.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ch_Format.Width = 124;
+            // 
+            // ch_Entfernung
+            // 
+            this.ch_Entfernung.Text = "Entfernung";
+            this.ch_Entfernung.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ch_Entfernung.Width = 124;
+            // 
+            // ch_Gewicht
+            // 
+            this.ch_Gewicht.Text = "Gewicht";
+            this.ch_Gewicht.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ch_Gewicht.Width = 124;
+            // 
+            // ch_Porto
+            // 
+            this.ch_Porto.Text = "Porto";
+            this.ch_Porto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ch_Porto.Width = 124;
             // 
             // lbl_Porto
             // 
@@ -199,10 +240,9 @@
             this.lbl_kg.AutoSize = true;
             this.lbl_kg.Location = new System.Drawing.Point(279, 180);
             this.lbl_kg.Name = "lbl_kg";
-            this.lbl_kg.Size = new System.Drawing.Size(15, 16);
+            this.lbl_kg.Size = new System.Drawing.Size(22, 16);
             this.lbl_kg.TabIndex = 14;
-            this.lbl_kg.Text = "g";
-            this.lbl_kg.Click += new System.EventHandler(this.lbl_kg_Click);
+            this.lbl_kg.Text = "kg";
             // 
             // brief_list_box
             // 
@@ -274,6 +314,11 @@
         private System.Windows.Forms.Label lbl_kg;
         private System.Windows.Forms.ComboBox brief_list_box;
         private System.Windows.Forms.Label lbl_brief_größe;
+        private System.Windows.Forms.ColumnHeader ch_Format;
+        private System.Windows.Forms.ColumnHeader ch_Entfernung;
+        private System.Windows.Forms.ColumnHeader ch_Gewicht;
+        private System.Windows.Forms.ColumnHeader ch_Porto;
+        private System.Windows.Forms.ColumnHeader ch_index;
     }
 }
 
